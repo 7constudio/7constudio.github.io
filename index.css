@@ -1,7 +1,18 @@
+@font-face {
+    font-family: SFPro;
+    src: url(assets/fonts/SF-Pro.ttf);
+}
+
 *
 {
     padding: 0px;
     margin: 0px;
+}
+
+html
+{
+    scroll-behavior: smooth;
+    font-family: SFPro;
 }
 
 body {
