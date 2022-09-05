@@ -67,3 +67,8 @@ body {
     height: 18rem;
     width: 18rem;
 }
+
+#photos-tab-pane > div > img
+{
+    margin: 0 auto;
+}
