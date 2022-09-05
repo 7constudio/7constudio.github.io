@@ -1,0 +1,64 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #f6f9fc;
+}
+
+#header
+{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#header > #title
+{
+    font-size: 2rem;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.spacer 
+{
+    flex-grow: 1;
+}
+
+#logo 
+{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 7rem;
+    height: 7rem;
+}
+
+.tab-content
+{
+    padding: 1rem;
+}
+
+#about-tab-pane > .welcome
+{
+    font-size: 1.5rem;
+}
+
+.btn-xl
+{
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+.icon
+{
+    font-size: 1.2rem;
+    padding-right: 0.4rem;
+}
+
+.upi-qr
+{
+    height: 18rem;
+    width: 18rem;
+}
