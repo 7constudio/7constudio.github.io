@@ -28,7 +28,7 @@ For the QR code solution, we will just slightly modify our existing business car
 
 I am experimenting with NFC. I ordered a few NFC stickers, will stick on the back of a simple non PVC card and test how reliable it is and how much stress it can handle.
 
-## To- Do
+## To Do
 
 * Generator site: I made this within a day, with very limited knowledge of HTML and CSS. I would like to extend this and create a "generator" site or an app that lets users easily do it themselves without writing code.
 
