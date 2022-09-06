@@ -20,7 +20,7 @@ There are other options in between, with different colour options. All of them a
 
 ## Goal
 
-My goal was to recreate this in the cheapest way possible. It is a very simple and neat concept, but also simple enough that you can do it for yourself with little computer knowledge.
+My goal was to recreate this in the cheapest way possible. It is a nice concept, but also simple enough that you can do it for yourself with little computer knowledge.
 
 I decided to host a similar static site on GitHub pages for free. Hence, website costs reduced to 0. The next way was to implement the QR Code/NFC system.
 
