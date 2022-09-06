@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Seven Concepts Studio</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -8,87 +8,125 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div id="header">
-            <p id="title">Seven Concepts Studio</p>
+        <div id="main-body">
+            <div id="header">
+                <p id="title">Seven Concepts Studio</p>
+    
+                <span class="spacer"></span>
 
-            <span class="spacer"></span>
+                <picture class="center-element">
+                    <source type="image/webp" srcset="assets/photos/webp/logo.webp">
+                    <source type="image/png" srcset="assets/photos/png/logo.png">
+                    <img id="logo" class="border">
+                </picture>
+            </div>
+            <ul class="nav nav-tabs nav-fill tab-bar" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="true">About</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="payment-tab" data-bs-toggle="tab" data-bs-target="#payment-tab-pane" type="button" role="tab" aria-controls="payment-tab-pane" aria-selected="false">Pay</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="photos-tab" data-bs-toggle="tab" data-bs-target="#photos-tab-pane" type="button" role="tab" aria-controls="photos-tab-pane" aria-selected="false">Photos</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="location-tab" data-bs-toggle="tab" data-bs-target="#location-tab-pane" type="button" role="tab" aria-controls="location-tab-pane" aria-selected="false">Location</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
+                    <p class="welcome">Welcome!</p>
+                    <p>
+                        We are specialized in home furnishing Modular Kitchen, False Ceiling, Painting ,Epoxy, wooden and PVC flooring. 
+                        Our company being highly esteemed by many customers deals with interior designing (both 2D and 3D , 3DS Max) 
+                        and home decor products. 
+                    </p>
+                    <p>
+                        We also deal with home decor items like Wallpaper, Blinds, Digital Curtains, Glass Flims, 
+                        PVC flooring, Furnitute Flims , Bedsheet, Bedcovers, Doormat, Artificial Grass Carpets, Carpets, Hardware. 
+                    </p>
+                    <p>
+                        Seven Concepts studio is headed by Mrs. Shampa Sutradhar, who has 12 years of glorious experience in the field of interior designing from concept to execution.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                    <div class="d-grid gap-2 mx-auto">
+                        <a class="btn btn-success btn-xl d-inline-flex align-items-center justify-content-center" type="button" href="https://api.whatsapp.com/send?phone=919163002617" target="_blank">
+                            <i class="bi-whatsapp icon"></i>WhatsApp
+                        </a>
+                        <a class="btn btn-primary btn-xl d-inline-flex align-items-center justify-content-center" type="button" href="tel:9163002617" target="_blank">
+                            <i class="bi-telephone icon"></i>Call
+                        </a>
+                        <a class="btn btn-primary btn-xl d-inline-flex align-items-center justify-content-center" type="button" href="assets/Seven Concepts Studio Contact.vcf">
+                            <i class="bi-person-square icon"></i>Contact V-Card
+                        </a>
+                        <a class="btn btn-primary btn-xl d-inline-flex align-items-center justify-content-center" type="button" href="mailto:shampasutradhar@gmail.com" target="_blank">
+                            <i class="bi-mailbox icon"></i>E-Mail
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="payment-tab-pane" role="tabpanel" aria-labelledby="payment-tab" tabindex="0">
+                    <div class="d-grid gap-2 mx-auto">
+                        <a class="btn btn-primary d-inline-flex align-items-center justify-content-center" type="button" href="upi://pay?pa=shampasutradhar-1@okaxis&pn=Shampa%20Sutradhar" target="_blank">
+                            <i class="bi-cash icon"></i>Pay with UPI
+                        </a>
+                        
+                        <span class="text-center">You can also scan the QR code below with any UPI app.</span>
 
-            <img id="logo" src="assets/logo.png"/>
+                        <svg class="border center-element" width="245" height="245">
+                            <desc>upi://pay?pa=shampasutradhar-1@okaxis&amp;pn=Shampa%20Sutradhar</desc>
+                            <rect class="qr-rect" x="0" y="0" width="245" height="245"/>
+                            <path class="qr-path" d="M 7,7 l 7,0 0,7 -7,0 z M 14,7 l 7,0 0,7 -7,0 z M 21,7 l 7,0 0,7 -7,0 z M 28,7 l 7,0 0,7 -7,0 z M 35,7 l 7,0 0,7 -7,0 z M 42,7 l 7,0 0,7 -7,0 z M 49,7 l 7,0 0,7 -7,0 z M 77,7 l 7,0 0,7 -7,0 z M 91,7 l 7,0 0,7 -7,0 z M 98,7 l 7,0 0,7 -7,0 z M 112,7 l 7,0 0,7 -7,0 z M 133,7 l 7,0 0,7 -7,0 z M 140,7 l 7,0 0,7 -7,0 z M 147,7 l 7,0 0,7 -7,0 z M 154,7 l 7,0 0,7 -7,0 z M 161,7 l 7,0 0,7 -7,0 z M 168,7 l 7,0 0,7 -7,0 z M 189,7 l 7,0 0,7 -7,0 z M 196,7 l 7,0 0,7 -7,0 z M 203,7 l 7,0 0,7 -7,0 z M 210,7 l 7,0 0,7 -7,0 z M 217,7 l 7,0 0,7 -7,0 z M 224,7 l 7,0 0,7 -7,0 z M 231,7 l 7,0 0,7 -7,0 z M 7,14 l 7,0 0,7 -7,0 z M 49,14 l 7,0 0,7 -7,0 z M 63,14 l 7,0 0,7 -7,0 z M 77,14 l 7,0 0,7 -7,0 z M 98,14 l 7,0 0,7 -7,0 z M 105,14 l 7,0 0,7 -7,0 z M 112,14 l 7,0 0,7 -7,0 z M 133,14 l 7,0 0,7 -7,0 z M 189,14 l 7,0 0,7 -7,0 z M 231,14 l 7,0 0,7 -7,0 z M 7,21 l 7,0 0,7 -7,0 z M 21,21 l 7,0 0,7 -7,0 z M 28,21 l 7,0 0,7 -7,0 z M 35,21 l 7,0 0,7 -7,0 z M 49,21 l 7,0 0,7 -7,0 z M 91,21 l 7,0 0,7 -7,0 z M 98,21 l 7,0 0,7 -7,0 z M 154,21 l 7,0 0,7 -7,0 z M 175,21 l 7,0 0,7 -7,0 z M 189,21 l 7,0 0,7 -7,0 z M 203,21 l 7,0 0,7 -7,0 z M 210,21 l 7,0 0,7 -7,0 z M 217,21 l 7,0 0,7 -7,0 z M 231,21 l 7,0 0,7 -7,0 z M 7,28 l 7,0 0,7 -7,0 z M 21,28 l 7,0 0,7 -7,0 z M 28,28 l 7,0 0,7 -7,0 z M 35,28 l 7,0 0,7 -7,0 z M 49,28 l 7,0 0,7 -7,0 z M 63,28 l 7,0 0,7 -7,0 z M 70,28 l 7,0 0,7 -7,0 z M 77,28 l 7,0 0,7 -7,0 z M 91,28 l 7,0 0,7 -7,0 z M 105,28 l 7,0 0,7 -7,0 z M 112,28 l 7,0 0,7 -7,0 z M 119,28 l 7,0 0,7 -7,0 z M 126,28 l 7,0 0,7 -7,0 z M 140,28 l 7,0 0,7 -7,0 z M 175,28 l 7,0 0,7 -7,0 z M 189,28 l 7,0 0,7 -7,0 z M 203,28 l 7,0 0,7 -7,0 z M 210,28 l 7,0 0,7 -7,0 z M 217,28 l 7,0 0,7 -7,0 z M 231,28 l 7,0 0,7 -7,0 z M 7,35 l 7,0 0,7 -7,0 z M 21,35 l 7,0 0,7 -7,0 z M 28,35 l 7,0 0,7 -7,0 z M 35,35 l 7,0 0,7 -7,0 z M 49,35 l 7,0 0,7 -7,0 z M 70,35 l 7,0 0,7 -7,0 z M 119,35 l 7,0 0,7 -7,0 z M 126,35 l 7,0 0,7 -7,0 z M 133,35 l 7,0 0,7 -7,0 z M 140,35 l 7,0 0,7 -7,0 z M 147,35 l 7,0 0,7 -7,0 z M 168,35 l 7,0 0,7 -7,0 z M 189,35 l 7,0 0,7 -7,0 z M 203,35 l 7,0 0,7 -7,0 z M 210,35 l 7,0 0,7 -7,0 z M 217,35 l 7,0 0,7 -7,0 z M 231,35 l 7,0 0,7 -7,0 z M 7,42 l 7,0 0,7 -7,0 z M 49,42 l 7,0 0,7 -7,0 z M 63,42 l 7,0 0,7 -7,0 z M 70,42 l 7,0 0,7 -7,0 z M 84,42 l 7,0 0,7 -7,0 z M 91,42 l 7,0 0,7 -7,0 z M 112,42 l 7,0 0,7 -7,0 z M 119,42 l 7,0 0,7 -7,0 z M 147,42 l 7,0 0,7 -7,0 z M 154,42 l 7,0 0,7 -7,0 z M 161,42 l 7,0 0,7 -7,0 z M 175,42 l 7,0 0,7 -7,0 z M 189,42 l 7,0 0,7 -7,0 z M 231,42 l 7,0 0,7 -7,0 z M 7,49 l 7,0 0,7 -7,0 z M 14,49 l 7,0 0,7 -7,0 z M 21,49 l 7,0 0,7 -7,0 z M 28,49 l 7,0 0,7 -7,0 z M 35,49 l 7,0 0,7 -7,0 z M 42,49 l 7,0 0,7 -7,0 z M 49,49 l 7,0 0,7 -7,0 z M 63,49 l 7,0 0,7 -7,0 z M 77,49 l 7,0 0,7 -7,0 z M 91,49 l 7,0 0,7 -7,0 z M 105,49 l 7,0 0,7 -7,0 z M 119,49 l 7,0 0,7 -7,0 z M 133,49 l 7,0 0,7 -7,0 z M 147,49 l 7,0 0,7 -7,0 z M 161,49 l 7,0 0,7 -7,0 z M 175,49 l 7,0 0,7 -7,0 z M 189,49 l 7,0 0,7 -7,0 z M 196,49 l 7,0 0,7 -7,0 z M 203,49 l 7,0 0,7 -7,0 z M 210,49 l 7,0 0,7 -7,0 z M 217,49 l 7,0 0,7 -7,0 z M 224,49 l 7,0 0,7 -7,0 z M 231,49 l 7,0 0,7 -7,0 z M 70,56 l 7,0 0,7 -7,0 z M 77,56 l 7,0 0,7 -7,0 z M 84,56 l 7,0 0,7 -7,0 z M 105,56 l 7,0 0,7 -7,0 z M 112,56 l 7,0 0,7 -7,0 z M 140,56 l 7,0 0,7 -7,0 z M 154,56 l 7,0 0,7 -7,0 z M 161,56 l 7,0 0,7 -7,0 z M 175,56 l 7,0 0,7 -7,0 z M 7,63 l 7,0 0,7 -7,0 z M 14,63 l 7,0 0,7 -7,0 z M 21,63 l 7,0 0,7 -7,0 z M 28,63 l 7,0 0,7 -7,0 z M 35,63 l 7,0 0,7 -7,0 z M 49,63 l 7,0 0,7 -7,0 z M 56,63 l 7,0 0,7 -7,0 z M 63,63 l 7,0 0,7 -7,0 z M 70,63 l 7,0 0,7 -7,0 z M 84,63 l 7,0 0,7 -7,0 z M 112,63 l 7,0 0,7 -7,0 z M 126,63 l 7,0 0,7 -7,0 z M 147,63 l 7,0 0,7 -7,0 z M 168,63 l 7,0 0,7 -7,0 z M 175,63 l 7,0 0,7 -7,0 z M 182,63 l 7,0 0,7 -7,0 z M 196,63 l 7,0 0,7 -7,0 z M 210,63 l 7,0 0,7 -7,0 z M 224,63 l 7,0 0,7 -7,0 z M 21,70 l 7,0 0,7 -7,0 z M 77,70 l 7,0 0,7 -7,0 z M 91,70 l 7,0 0,7 -7,0 z M 98,70 l 7,0 0,7 -7,0 z M 105,70 l 7,0 0,7 -7,0 z M 119,70 l 7,0 0,7 -7,0 z M 147,70 l 7,0 0,7 -7,0 z M 154,70 l 7,0 0,7 -7,0 z M 161,70 l 7,0 0,7 -7,0 z M 168,70 l 7,0 0,7 -7,0 z M 189,70 l 7,0 0,7 -7,0 z M 210,70 l 7,0 0,7 -7,0 z M 231,70 l 7,0 0,7 -7,0 z M 14,77 l 7,0 0,7 -7,0 z M 21,77 l 7,0 0,7 -7,0 z M 28,77 l 7,0 0,7 -7,0 z M 49,77 l 7,0 0,7 -7,0 z M 63,77 l 7,0 0,7 -7,0 z M 77,77 l 7,0 0,7 -7,0 z M 98,77 l 7,0 0,7 -7,0 z M 105,77 l 7,0 0,7 -7,0 z M 112,77 l 7,0 0,7 -7,0 z M 133,77 l 7,0 0,7 -7,0 z M 147,77 l 7,0 0,7 -7,0 z M 154,77 l 7,0 0,7 -7,0 z M 175,77 l 7,0 0,7 -7,0 z M 196,77 l 7,0 0,7 -7,0 z M 210,77 l 7,0 0,7 -7,0 z M 7,84 l 7,0 0,7 -7,0 z M 14,84 l 7,0 0,7 -7,0 z M 28,84 l 7,0 0,7 -7,0 z M 42,84 l 7,0 0,7 -7,0 z M 56,84 l 7,0 0,7 -7,0 z M 63,84 l 7,0 0,7 -7,0 z M 91,84 l 7,0 0,7 -7,0 z M 98,84 l 7,0 0,7 -7,0 z M 112,84 l 7,0 0,7 -7,0 z M 133,84 l 7,0 0,7 -7,0 z M 147,84 l 7,0 0,7 -7,0 z M 154,84 l 7,0 0,7 -7,0 z M 161,84 l 7,0 0,7 -7,0 z M 182,84 l 7,0 0,7 -7,0 z M 196,84 l 7,0 0,7 -7,0 z M 203,84 l 7,0 0,7 -7,0 z M 217,84 l 7,0 0,7 -7,0 z M 231,84 l 7,0 0,7 -7,0 z M 7,91 l 7,0 0,7 -7,0 z M 35,91 l 7,0 0,7 -7,0 z M 49,91 l 7,0 0,7 -7,0 z M 56,91 l 7,0 0,7 -7,0 z M 70,91 l 7,0 0,7 -7,0 z M 77,91 l 7,0 0,7 -7,0 z M 91,91 l 7,0 0,7 -7,0 z M 105,91 l 7,0 0,7 -7,0 z M 126,91 l 7,0 0,7 -7,0 z M 140,91 l 7,0 0,7 -7,0 z M 147,91 l 7,0 0,7 -7,0 z M 154,91 l 7,0 0,7 -7,0 z M 161,91 l 7,0 0,7 -7,0 z M 175,91 l 7,0 0,7 -7,0 z M 182,91 l 7,0 0,7 -7,0 z M 196,91 l 7,0 0,7 -7,0 z M 203,91 l 7,0 0,7 -7,0 z M 231,91 l 7,0 0,7 -7,0 z M 14,98 l 7,0 0,7 -7,0 z M 35,98 l 7,0 0,7 -7,0 z M 42,98 l 7,0 0,7 -7,0 z M 56,98 l 7,0 0,7 -7,0 z M 63,98 l 7,0 0,7 -7,0 z M 70,98 l 7,0 0,7 -7,0 z M 119,98 l 7,0 0,7 -7,0 z M 133,98 l 7,0 0,7 -7,0 z M 140,98 l 7,0 0,7 -7,0 z M 154,98 l 7,0 0,7 -7,0 z M 168,98 l 7,0 0,7 -7,0 z M 189,98 l 7,0 0,7 -7,0 z M 210,98 l 7,0 0,7 -7,0 z M 224,98 l 7,0 0,7 -7,0 z M 231,98 l 7,0 0,7 -7,0 z M 28,105 l 7,0 0,7 -7,0 z M 49,105 l 7,0 0,7 -7,0 z M 56,105 l 7,0 0,7 -7,0 z M 63,105 l 7,0 0,7 -7,0 z M 77,105 l 7,0 0,7 -7,0 z M 84,105 l 7,0 0,7 -7,0 z M 91,105 l 7,0 0,7 -7,0 z M 112,105 l 7,0 0,7 -7,0 z M 133,105 l 7,0 0,7 -7,0 z M 154,105 l 7,0 0,7 -7,0 z M 182,105 l 7,0 0,7 -7,0 z M 189,105 l 7,0 0,7 -7,0 z M 203,105 l 7,0 0,7 -7,0 z M 210,105 l 7,0 0,7 -7,0 z M 14,112 l 7,0 0,7 -7,0 z M 21,112 l 7,0 0,7 -7,0 z M 35,112 l 7,0 0,7 -7,0 z M 42,112 l 7,0 0,7 -7,0 z M 56,112 l 7,0 0,7 -7,0 z M 63,112 l 7,0 0,7 -7,0 z M 70,112 l 7,0 0,7 -7,0 z M 77,112 l 7,0 0,7 -7,0 z M 84,112 l 7,0 0,7 -7,0 z M 105,112 l 7,0 0,7 -7,0 z M 112,112 l 7,0 0,7 -7,0 z M 119,112 l 7,0 0,7 -7,0 z M 140,112 l 7,0 0,7 -7,0 z M 147,112 l 7,0 0,7 -7,0 z M 154,112 l 7,0 0,7 -7,0 z M 175,112 l 7,0 0,7 -7,0 z M 182,112 l 7,0 0,7 -7,0 z M 196,112 l 7,0 0,7 -7,0 z M 210,112 l 7,0 0,7 -7,0 z M 217,112 l 7,0 0,7 -7,0 z M 224,112 l 7,0 0,7 -7,0 z M 7,119 l 7,0 0,7 -7,0 z M 21,119 l 7,0 0,7 -7,0 z M 35,119 l 7,0 0,7 -7,0 z M 42,119 l 7,0 0,7 -7,0 z M 49,119 l 7,0 0,7 -7,0 z M 63,119 l 7,0 0,7 -7,0 z M 77,119 l 7,0 0,7 -7,0 z M 84,119 l 7,0 0,7 -7,0 z M 112,119 l 7,0 0,7 -7,0 z M 126,119 l 7,0 0,7 -7,0 z M 133,119 l 7,0 0,7 -7,0 z M 140,119 l 7,0 0,7 -7,0 z M 161,119 l 7,0 0,7 -7,0 z M 175,119 l 7,0 0,7 -7,0 z M 182,119 l 7,0 0,7 -7,0 z M 203,119 l 7,0 0,7 -7,0 z M 210,119 l 7,0 0,7 -7,0 z M 231,119 l 7,0 0,7 -7,0 z M 7,126 l 7,0 0,7 -7,0 z M 28,126 l 7,0 0,7 -7,0 z M 35,126 l 7,0 0,7 -7,0 z M 42,126 l 7,0 0,7 -7,0 z M 63,126 l 7,0 0,7 -7,0 z M 70,126 l 7,0 0,7 -7,0 z M 91,126 l 7,0 0,7 -7,0 z M 98,126 l 7,0 0,7 -7,0 z M 105,126 l 7,0 0,7 -7,0 z M 119,126 l 7,0 0,7 -7,0 z M 133,126 l 7,0 0,7 -7,0 z M 140,126 l 7,0 0,7 -7,0 z M 147,126 l 7,0 0,7 -7,0 z M 168,126 l 7,0 0,7 -7,0 z M 182,126 l 7,0 0,7 -7,0 z M 189,126 l 7,0 0,7 -7,0 z M 217,126 l 7,0 0,7 -7,0 z M 231,126 l 7,0 0,7 -7,0 z M 7,133 l 7,0 0,7 -7,0 z M 35,133 l 7,0 0,7 -7,0 z M 42,133 l 7,0 0,7 -7,0 z M 49,133 l 7,0 0,7 -7,0 z M 63,133 l 7,0 0,7 -7,0 z M 98,133 l 7,0 0,7 -7,0 z M 105,133 l 7,0 0,7 -7,0 z M 112,133 l 7,0 0,7 -7,0 z M 119,133 l 7,0 0,7 -7,0 z M 161,133 l 7,0 0,7 -7,0 z M 175,133 l 7,0 0,7 -7,0 z M 217,133 l 7,0 0,7 -7,0 z M 224,133 l 7,0 0,7 -7,0 z M 7,140 l 7,0 0,7 -7,0 z M 14,140 l 7,0 0,7 -7,0 z M 21,140 l 7,0 0,7 -7,0 z M 28,140 l 7,0 0,7 -7,0 z M 42,140 l 7,0 0,7 -7,0 z M 56,140 l 7,0 0,7 -7,0 z M 63,140 l 7,0 0,7 -7,0 z M 77,140 l 7,0 0,7 -7,0 z M 91,140 l 7,0 0,7 -7,0 z M 98,140 l 7,0 0,7 -7,0 z M 112,140 l 7,0 0,7 -7,0 z M 154,140 l 7,0 0,7 -7,0 z M 161,140 l 7,0 0,7 -7,0 z M 168,140 l 7,0 0,7 -7,0 z M 175,140 l 7,0 0,7 -7,0 z M 203,140 l 7,0 0,7 -7,0 z M 210,140 l 7,0 0,7 -7,0 z M 217,140 l 7,0 0,7 -7,0 z M 7,147 l 7,0 0,7 -7,0 z M 21,147 l 7,0 0,7 -7,0 z M 42,147 l 7,0 0,7 -7,0 z M 49,147 l 7,0 0,7 -7,0 z M 63,147 l 7,0 0,7 -7,0 z M 70,147 l 7,0 0,7 -7,0 z M 91,147 l 7,0 0,7 -7,0 z M 105,147 l 7,0 0,7 -7,0 z M 112,147 l 7,0 0,7 -7,0 z M 126,147 l 7,0 0,7 -7,0 z M 133,147 l 7,0 0,7 -7,0 z M 147,147 l 7,0 0,7 -7,0 z M 161,147 l 7,0 0,7 -7,0 z M 182,147 l 7,0 0,7 -7,0 z M 203,147 l 7,0 0,7 -7,0 z M 7,154 l 7,0 0,7 -7,0 z M 14,154 l 7,0 0,7 -7,0 z M 21,154 l 7,0 0,7 -7,0 z M 28,154 l 7,0 0,7 -7,0 z M 119,154 l 7,0 0,7 -7,0 z M 140,154 l 7,0 0,7 -7,0 z M 147,154 l 7,0 0,7 -7,0 z M 168,154 l 7,0 0,7 -7,0 z M 189,154 l 7,0 0,7 -7,0 z M 196,154 l 7,0 0,7 -7,0 z M 217,154 l 7,0 0,7 -7,0 z M 224,154 l 7,0 0,7 -7,0 z M 231,154 l 7,0 0,7 -7,0 z M 7,161 l 7,0 0,7 -7,0 z M 21,161 l 7,0 0,7 -7,0 z M 28,161 l 7,0 0,7 -7,0 z M 35,161 l 7,0 0,7 -7,0 z M 42,161 l 7,0 0,7 -7,0 z M 49,161 l 7,0 0,7 -7,0 z M 84,161 l 7,0 0,7 -7,0 z M 91,161 l 7,0 0,7 -7,0 z M 112,161 l 7,0 0,7 -7,0 z M 126,161 l 7,0 0,7 -7,0 z M 133,161 l 7,0 0,7 -7,0 z M 175,161 l 7,0 0,7 -7,0 z M 210,161 l 7,0 0,7 -7,0 z M 217,161 l 7,0 0,7 -7,0 z M 224,161 l 7,0 0,7 -7,0 z M 7,168 l 7,0 0,7 -7,0 z M 21,168 l 7,0 0,7 -7,0 z M 28,168 l 7,0 0,7 -7,0 z M 35,168 l 7,0 0,7 -7,0 z M 42,168 l 7,0 0,7 -7,0 z M 63,168 l 7,0 0,7 -7,0 z M 77,168 l 7,0 0,7 -7,0 z M 84,168 l 7,0 0,7 -7,0 z M 105,168 l 7,0 0,7 -7,0 z M 133,168 l 7,0 0,7 -7,0 z M 140,168 l 7,0 0,7 -7,0 z M 147,168 l 7,0 0,7 -7,0 z M 154,168 l 7,0 0,7 -7,0 z M 161,168 l 7,0 0,7 -7,0 z M 182,168 l 7,0 0,7 -7,0 z M 196,168 l 7,0 0,7 -7,0 z M 210,168 l 7,0 0,7 -7,0 z M 217,168 l 7,0 0,7 -7,0 z M 224,168 l 7,0 0,7 -7,0 z M 7,175 l 7,0 0,7 -7,0 z M 21,175 l 7,0 0,7 -7,0 z M 28,175 l 7,0 0,7 -7,0 z M 35,175 l 7,0 0,7 -7,0 z M 42,175 l 7,0 0,7 -7,0 z M 49,175 l 7,0 0,7 -7,0 z M 63,175 l 7,0 0,7 -7,0 z M 70,175 l 7,0 0,7 -7,0 z M 77,175 l 7,0 0,7 -7,0 z M 84,175 l 7,0 0,7 -7,0 z M 112,175 l 7,0 0,7 -7,0 z M 119,175 l 7,0 0,7 -7,0 z M 126,175 l 7,0 0,7 -7,0 z M 133,175 l 7,0 0,7 -7,0 z M 161,175 l 7,0 0,7 -7,0 z M 175,175 l 7,0 0,7 -7,0 z M 182,175 l 7,0 0,7 -7,0 z M 189,175 l 7,0 0,7 -7,0 z M 196,175 l 7,0 0,7 -7,0 z M 203,175 l 7,0 0,7 -7,0 z M 210,175 l 7,0 0,7 -7,0 z M 224,175 l 7,0 0,7 -7,0 z M 63,182 l 7,0 0,7 -7,0 z M 91,182 l 7,0 0,7 -7,0 z M 98,182 l 7,0 0,7 -7,0 z M 105,182 l 7,0 0,7 -7,0 z M 119,182 l 7,0 0,7 -7,0 z M 140,182 l 7,0 0,7 -7,0 z M 154,182 l 7,0 0,7 -7,0 z M 168,182 l 7,0 0,7 -7,0 z M 175,182 l 7,0 0,7 -7,0 z M 203,182 l 7,0 0,7 -7,0 z M 224,182 l 7,0 0,7 -7,0 z M 231,182 l 7,0 0,7 -7,0 z M 7,189 l 7,0 0,7 -7,0 z M 14,189 l 7,0 0,7 -7,0 z M 21,189 l 7,0 0,7 -7,0 z M 28,189 l 7,0 0,7 -7,0 z M 35,189 l 7,0 0,7 -7,0 z M 42,189 l 7,0 0,7 -7,0 z M 49,189 l 7,0 0,7 -7,0 z M 63,189 l 7,0 0,7 -7,0 z M 77,189 l 7,0 0,7 -7,0 z M 98,189 l 7,0 0,7 -7,0 z M 105,189 l 7,0 0,7 -7,0 z M 112,189 l 7,0 0,7 -7,0 z M 133,189 l 7,0 0,7 -7,0 z M 147,189 l 7,0 0,7 -7,0 z M 154,189 l 7,0 0,7 -7,0 z M 168,189 l 7,0 0,7 -7,0 z M 175,189 l 7,0 0,7 -7,0 z M 189,189 l 7,0 0,7 -7,0 z M 203,189 l 7,0 0,7 -7,0 z M 210,189 l 7,0 0,7 -7,0 z M 217,189 l 7,0 0,7 -7,0 z M 224,189 l 7,0 0,7 -7,0 z M 7,196 l 7,0 0,7 -7,0 z M 49,196 l 7,0 0,7 -7,0 z M 91,196 l 7,0 0,7 -7,0 z M 98,196 l 7,0 0,7 -7,0 z M 112,196 l 7,0 0,7 -7,0 z M 119,196 l 7,0 0,7 -7,0 z M 133,196 l 7,0 0,7 -7,0 z M 140,196 l 7,0 0,7 -7,0 z M 154,196 l 7,0 0,7 -7,0 z M 161,196 l 7,0 0,7 -7,0 z M 168,196 l 7,0 0,7 -7,0 z M 175,196 l 7,0 0,7 -7,0 z M 203,196 l 7,0 0,7 -7,0 z M 217,196 l 7,0 0,7 -7,0 z M 224,196 l 7,0 0,7 -7,0 z M 231,196 l 7,0 0,7 -7,0 z M 7,203 l 7,0 0,7 -7,0 z M 21,203 l 7,0 0,7 -7,0 z M 28,203 l 7,0 0,7 -7,0 z M 35,203 l 7,0 0,7 -7,0 z M 49,203 l 7,0 0,7 -7,0 z M 63,203 l 7,0 0,7 -7,0 z M 77,203 l 7,0 0,7 -7,0 z M 91,203 l 7,0 0,7 -7,0 z M 105,203 l 7,0 0,7 -7,0 z M 112,203 l 7,0 0,7 -7,0 z M 119,203 l 7,0 0,7 -7,0 z M 147,203 l 7,0 0,7 -7,0 z M 161,203 l 7,0 0,7 -7,0 z M 175,203 l 7,0 0,7 -7,0 z M 182,203 l 7,0 0,7 -7,0 z M 189,203 l 7,0 0,7 -7,0 z M 196,203 l 7,0 0,7 -7,0 z M 203,203 l 7,0 0,7 -7,0 z M 210,203 l 7,0 0,7 -7,0 z M 231,203 l 7,0 0,7 -7,0 z M 7,210 l 7,0 0,7 -7,0 z M 21,210 l 7,0 0,7 -7,0 z M 28,210 l 7,0 0,7 -7,0 z M 35,210 l 7,0 0,7 -7,0 z M 49,210 l 7,0 0,7 -7,0 z M 63,210 l 7,0 0,7 -7,0 z M 77,210 l 7,0 0,7 -7,0 z M 119,210 l 7,0 0,7 -7,0 z M 140,210 l 7,0 0,7 -7,0 z M 147,210 l 7,0 0,7 -7,0 z M 161,210 l 7,0 0,7 -7,0 z M 168,210 l 7,0 0,7 -7,0 z M 175,210 l 7,0 0,7 -7,0 z M 182,210 l 7,0 0,7 -7,0 z M 196,210 l 7,0 0,7 -7,0 z M 203,210 l 7,0 0,7 -7,0 z M 210,210 l 7,0 0,7 -7,0 z M 224,210 l 7,0 0,7 -7,0 z M 231,210 l 7,0 0,7 -7,0 z M 7,217 l 7,0 0,7 -7,0 z M 21,217 l 7,0 0,7 -7,0 z M 28,217 l 7,0 0,7 -7,0 z M 35,217 l 7,0 0,7 -7,0 z M 49,217 l 7,0 0,7 -7,0 z M 63,217 l 7,0 0,7 -7,0 z M 84,217 l 7,0 0,7 -7,0 z M 91,217 l 7,0 0,7 -7,0 z M 112,217 l 7,0 0,7 -7,0 z M 119,217 l 7,0 0,7 -7,0 z M 126,217 l 7,0 0,7 -7,0 z M 133,217 l 7,0 0,7 -7,0 z M 147,217 l 7,0 0,7 -7,0 z M 154,217 l 7,0 0,7 -7,0 z M 168,217 l 7,0 0,7 -7,0 z M 175,217 l 7,0 0,7 -7,0 z M 182,217 l 7,0 0,7 -7,0 z M 189,217 l 7,0 0,7 -7,0 z M 210,217 l 7,0 0,7 -7,0 z M 7,224 l 7,0 0,7 -7,0 z M 49,224 l 7,0 0,7 -7,0 z M 63,224 l 7,0 0,7 -7,0 z M 84,224 l 7,0 0,7 -7,0 z M 105,224 l 7,0 0,7 -7,0 z M 112,224 l 7,0 0,7 -7,0 z M 119,224 l 7,0 0,7 -7,0 z M 154,224 l 7,0 0,7 -7,0 z M 168,224 l 7,0 0,7 -7,0 z M 196,224 l 7,0 0,7 -7,0 z M 210,224 l 7,0 0,7 -7,0 z M 217,224 l 7,0 0,7 -7,0 z M 7,231 l 7,0 0,7 -7,0 z M 14,231 l 7,0 0,7 -7,0 z M 21,231 l 7,0 0,7 -7,0 z M 28,231 l 7,0 0,7 -7,0 z M 35,231 l 7,0 0,7 -7,0 z M 42,231 l 7,0 0,7 -7,0 z M 49,231 l 7,0 0,7 -7,0 z M 63,231 l 7,0 0,7 -7,0 z M 77,231 l 7,0 0,7 -7,0 z M 84,231 l 7,0 0,7 -7,0 z M 112,231 l 7,0 0,7 -7,0 z M 119,231 l 7,0 0,7 -7,0 z M 126,231 l 7,0 0,7 -7,0 z M 140,231 l 7,0 0,7 -7,0 z M 161,231 l 7,0 0,7 -7,0 z M 168,231 l 7,0 0,7 -7,0 z M 175,231 l 7,0 0,7 -7,0 z M 182,231 l 7,0 0,7 -7,0 z M 189,231 l 7,0 0,7 -7,0 z M 196,231 l 7,0 0,7 -7,0 z M 210,231 l 7,0 0,7 -7,0 z M 224,231 l 7,0 0,7 -7,0 z " />
+                        </svg>
+                        
+                        <span class="text-center">VPA: shampasutradhar-1@okaxis</span>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="photos-tab-pane" role="tabpanel" aria-labelledby="photos-tab" tabindex="0">
+                    <div class="d-grid gap-2 mx-auto">
+                        <picture class="center-element">
+                            <source type="image/webp" srcset="assets/photos/webp/1.webp">
+                            <source type="image/png" srcset="assets/photos/png/1.png">
+                            <img class="img-fluid rounded border">
+                        </picture>
+                        <picture class="center-element">
+                            <source type="image/webp" srcset="assets/photos/webp/2.webp">
+                            <source type="image/png" srcset="assets/photos/png/2.png">
+                            <img class="img-fluid rounded border">
+                        </picture>
+                        <picture class="center-element">
+                            <source type="image/webp" srcset="assets/photos/webp/3.webp">
+                            <source type="image/png" srcset="assets/photos/png/3.png">
+                            <img class="img-fluid rounded border">
+                        </picture>
+                        <picture class="center-element">
+                            <source type="image/webp" srcset="assets/photos/webp/4.webp">
+                            <source type="image/png" srcset="assets/photos/png/4.png">
+                            <img class="img-fluid rounded border">
+                        </picture>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="location-tab-pane" role="tabpanel" aria-labelledby="location-tab" tabindex="0">
+                    <div class="d-grid gap-2 mx-auto">
+                        <p>Adonis Archisa Apartment, Ground Floor, Fartabad More, Garia Station Road, Garia, Kolkata, West Bengal 700084.</p>
+                        <a class="btn btn-primary d-inline-flex align-items-center justify-content-center" type="button" href="https://maps.app.goo.gl/i5Pt6jdQUntc6ND6A" target="_blank">
+                            <i class="bi-pin-map-fill icon"></i>Open in Google Maps
+                        </a>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d230.442940314125!2d88.38473107180042!3d22.463363042447128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d0773e751850002!2sSeven%20Concepts%20Studio!5e0!3m2!1sen!2sin!4v1662401461765!5m2!1sen!2sin" 
+                        width="100%" height="500px" class="map border rounded" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             
+                    </div>
+                </div>
+            </div>    
         </div>
-        <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="true">About</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="payment-tab" data-bs-toggle="tab" data-bs-target="#payment-tab-pane" type="button" role="tab" aria-controls="payment-tab-pane" aria-selected="false">Pay</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="photos-tab" data-bs-toggle="tab" data-bs-target="#photos-tab-pane" type="button" role="tab" aria-controls="photos-tab-pane" aria-selected="false">Photos</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="location-tab" data-bs-toggle="tab" data-bs-target="#location-tab-pane" type="button" role="tab" aria-controls="location-tab-pane" aria-selected="false">Location</button>
-            </li>
-          </ul>
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
-                <p class="welcome">Welcome!</p>
-                <p>
-                    We are specialized in home furnishing Modular Kitchen, False Ceiling, Painting , epoxy ,wooden and PVC flooring. 
-                    Our company being highly esteemed by many customers deals with interior designing (both 2D and 3D , 3DS Max) 
-                    and home decor products. 
-                </p>
-                <p>
-                    We also deal with home decor items like Wallpaper, Blinds, Digital Curtains, Glass Flims, 
-                    PVC flooring, Furnitute Flims , Bedsheet, Bedcovers, Doormat, Artificial Grass Carpets, Carpets, Hardware. 
-                </p>
-                <p>
-                    Seven Concepts studio is headed by Mrs. Shampa Sutradhar, who has 12 years of glorious experience in the field of interior designing from concept to execution.
-                </p>
+        <div class="navbar fixed-bottom">
+            <div class="container d-flex justify-content-center">
+                <span class="made-by">Made by <a href="https://rnayabed.github.io">Debayan Sutradhar</a> © 2022</span>
             </div>
-            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-                <div class="d-grid gap-2 mx-auto">
-                    <a class="btn btn-success btn-xl d-inline-flex align-items-center justify-content-center" type="button" href="https://api.whatsapp.com/send?phone=919163002617" target="_blank">
-                        <i class="bi-whatsapp icon"></i>WhatsApp
-                    </a>
-                    <a class="btn btn-primary btn-xl d-inline-flex align-items-center justify-content-center" type="button" href="tel:9163002617" target="_blank">
-                        <i class="bi-telephone icon"></i>Phone
-                    </a>
-                    <a class="btn btn-primary btn-xl d-inline-flex align-items-center justify-content-center" type="button" href="mailto:shampasutradhar@gmail.com" target="_blank">
-                        <i class="bi-mailbox icon"></i>E-Mail
-                    </a>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="payment-tab-pane" role="tabpanel" aria-labelledby="payment-tab" tabindex="0">
-                <div class="d-grid gap-2 mx-auto">
-                    <a class="btn btn-primary d-inline-flex align-items-center justify-content-center" type="button" href="upi://pay?pa=shampasutradhar-1@okaxis&pn=Shampa%20Sutradhar&tn=undefined&am=undefined" target="_blank">
-                        <i class="bi-cash icon"></i>Pay with UPI
-                    </a>
-                    <img src="assets/upi.png" class="mx-auto d-block border upi-qr">
-                </div>
-            </div>
-            <div class="tab-pane fade" id="photos-tab-pane" role="tabpanel" aria-labelledby="photos-tab" tabindex="0">
-                <div class="d-grid gap-2 mx-auto">
-                    <img src="assets/photos/1.png" class="img-fluid rounded border">
-                    <img src="assets/photos/2.png" class="img-fluid rounded border">
-                    <img src="assets/photos/3.png" class="img-fluid rounded border">
-                    <img src="assets/photos/4.png" class="img-fluid rounded border">
-                </div>
-            </div>
-            <div class="tab-pane fade" id="location-tab-pane" role="tabpanel" aria-labelledby="location-tab" tabindex="0">
-                <div class="d-grid gap-2 mx-auto">
-                    <p>Adonis Archisa Appt, Gr Floor, Fartabad More, Garia Station Rd, Garia, Kolkata, West Bengal 700084</p>
-                    <a class="btn btn-primary d-inline-flex align-items-center justify-content-center" type="button" href="https://maps.app.goo.gl/i5Pt6jdQUntc6ND6A" target="_blank">
-                        <i class="bi-pin-map-fill icon"></i>Open in Google Maps
-                    </a>
-                    <br/><br/>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d230.442940314125!2d88.38473107180042!3d22.463363042447128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d0773e751850002!2sSeven%20Concepts%20Studio!5e0!3m2!1sen!2sin!4v1662401461765!5m2!1sen!2sin" 
-                    width="100%" height="500px" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             
-                </div>
-            </div>
-          </div>        
+        </div>
         <script src="bootstrap.js"></script>
     </body>
 </html>

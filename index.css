@@ -13,6 +13,11 @@ body {
     background-color: #f6f9fc;
 }
 
+#main-body{
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
 #header
 {
     padding: 1rem;
@@ -40,6 +45,10 @@ body {
     height: 7rem;
 }
 
+.tab-bar {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
 .tab-content
 {
     padding: 1rem;
@@ -62,13 +71,49 @@ body {
     padding-right: 0.4rem;
 }
 
-.upi-qr
+.qr-rect
 {
-    height: 18rem;
-    width: 18rem;
+    fill: white;
 }
 
-#photos-tab-pane > div > img
+.qr-path
+{
+    fill: black;
+}
+
+.center-element
 {
     margin: 0 auto;
 }
+
+.made-by
+{
+    color: #d1d1d1;
+    font-size: 0.1rem;
+}
+
+
+.made-by > a
+{
+    color: #caa7ff;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body 
+    {
+        background-color: #222222;
+        color: white;
+    }
+
+    .qr-rect
+    {
+        fill: black;
+    }
+
+    .qr-path
+    {
+        fill: white;
+    }
+}
+
