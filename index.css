@@ -14,7 +14,6 @@ body {
 }
 
 #main-body{
-    margin: 0 auto;
     max-width: 50rem;
 }
 
@@ -81,11 +80,6 @@ body {
     fill: black;
 }
 
-.center-element
-{
-    margin: 0 auto;
-}
-
 .made-by
 {
     color: #cacaca;
@@ -95,6 +89,17 @@ body {
 .made-by > a
 {
     color: #ae91dd;
+}
+
+.upi-qr
+{
+    height: 245px;
+    width: 245px;
+}
+
+.upi-app-logo
+{
+    height: 1.5rem;
 }
 
 
